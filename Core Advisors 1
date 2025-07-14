@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CORE Advisors is a CFO advisory firm helping SMEs, audit firms, and projects optimize financial performance through strategic finance services." />
+  <meta name="keywords" content="CFO advisory, SME finance, cash flow, financial strategy, mergers acquisitions, Beirut finance consultants" />
+  <meta name="author" content="CORE Advisors" />
+  <title>CORE Advisors | Strategic CFO Advisory</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Lato', sans-serif;
+      background-color: #F5F9FC;
+      color: #333;
+    }
+    h1, h2, h3, h4 {
+      font-family: 'Montserrat', sans-serif;
+      color: #013A6B;
+    }
+    .navbar {
+      background-color: #013A6B;
+    }
+    .navbar-nav .nav-link {
+      color: white !important;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/featured/?finance,office') no-repeat center center;
+      background-size: cover;
+      color: white;
+      padding: 120px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .btn-accent {
+      background-color: #2E8540;
+      color: white;
+    }
+    .service-card {
+      border-left: 4px solid #2E8540;
+      padding: 1rem;
+      background-color: white;
+      margin-bottom: 1.5rem;
+    }
+    .testimonial {
+      background-color: #ffffff;
+      border-left: 4px solid #013A6B;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .footer {
+      background-color: #013A6B;
+      color: white;
+      padding: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">CORE Advisors</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#insights" class="nav-link">Insights</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="container">
+    <h1>Strategic CFO Advisory for Growth</h1>
+    <p class="lead">Empowering SMEs, audit firms, and ambitious projects to thrive with expert financial leadership.</p>
+    <a href="#contact" class="btn btn-accent mt-3">Request Consultation</a>
+  </div>
+</section>
+
+<!-- Services Preview -->
+<section id="services" class="container py-5">
+  <div class="text-center mb-4">
+    <h2>Our Core Services</h2>
+    <p>Tailored financial expertise across industries and functions.</p>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="service-card">
+        <h3>Financial Strategy</h3>
+        <p>Growth-focused planning and modeling to align with your long-term goals.</p>
+        <ul>
+          <li>Financial planning & forecasting</li>
+          <li>Investment readiness</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="service-card">
+        <h3>Audit Firm Partnerships</h3>
+        <p>Enhancing audit value through integrated CFO advisory solutions.</p>
+        <ul>
+          <li>Pre-audit cleanups</li>
+          <li>Joint client engagements</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="service-card">
+        <h3>M&A & Structuring</h3>
+        <p>Hands-on support for buy-side/sell-side and entity reorganizations.</p>
+        <ul>
+          <li>Due diligence & valuation</li>
+          <li>Post-deal integration</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Accordion for all services -->
+  <div class="accordion mt-5" id="servicesAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">Full List of Services</button></h2>
+      <div id="collapseOne" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+          <ul class="row">
+            <li class="col-md-6">Cash Flow Optimization</li>
+            <li class="col-md-6">Business Structuring & Reorganization</li>
+            <li class="col-md-6">Project-Based CFO Services</li>
+            <li class="col-md-6">Budgeting & Forecasting</li>
+            <li class="col-md-6">Working Capital Management</li>
+            <li class="col-md-6">Investor Reporting & Board Decks</li>
+            <li class="col-md-6">Risk Management & Compliance</li>
+            <li class="col-md-6">Startup & SME Financial Planning</li>
+            <li class="col-md-6">Cost Control & Profitability Analysis</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="container py-5">
+  <div class="text-center mb-4">
+    <h2>About CORE Advisors</h2>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <p>Founded by finance expert Walid Chehaid, CORE Advisors brings decades of experience guiding SMEs, audit firms, and investment-backed ventures to financial health. We act as your trusted CFO partner—whether project-based or embedded long-term.</p>
+    </div>
+    <div class="col-md-6">
+      <h4>Our Mission</h4>
+      <p>To empower organizations with financial clarity, strategic foresight, and measurable results.</p>
+      <h4>Core Values</h4>
+      <ul>
+        <li>Integrity in financial leadership</li>
+        <li>Client-first advisory</li>
+        <li>Results-driven delivery</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Insights -->
+<section id="insights" class="container py-5">
+  <div class="text-center mb-4">
+    <h2>Insights & Articles</h2>
+    <p>Practical advice from our advisory desk.</p>
+  </div>
+  <div class="row">
+    <div class="col-md-4 mb-3">
+      <div class="card">
+        <img src="https://source.unsplash.com/featured/?finance,report" class="card-img-top" alt="Finance">
+        <div class="card-body">
+          <h5 class="card-title">Cash Flow Tactics for SMEs</h5>
+          <p class="card-text">Learn how SMEs can unlock working capital in tight markets.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card">
+        <img src="https://source.unsplash.com/featured/?strategy,planning" class="card-img-top" alt="Strategy">
+        <div class="card-body">
+          <h5 class="card-title">When to Hire a CFO</h5>
+          <p class="card-text">A framework to decide when external CFO support makes sense.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card">
+        <img src="https://source.unsplash.com/featured/?mergers,finance" class="card-img-top" alt="M&A">
+        <div class="card-body">
+          <h5 class="card-title">M&A Readiness Checklist</h5>
+          <p class="card-text">Preparing your company for a successful acquisition journey.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="container py-5">
+  <div class="text-center mb-4">
+    <h2>Contact Us</h2>
+    <p>Let’s discuss your financial goals today.</p>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <form id="contactForm">
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="name" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Your Message</label>
+          <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-accent">Send Message</button>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <h5>Office Location</h5>
+      <p>CORE Advisors<br>Beirut Central District, Lebanon</p>
+      <p><strong>Walid Chehaid</strong><br>+961 3 999 836<br><a href="mailto:info@coreadvisors.com">info@coreadvisors.com</a></p>
+      <iframe class="w-100" height="250" style="border:0" loading="lazy" allowfullscreen
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDUMMYKEY&q=Beirut+Central+District+Lebanon"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer text-center">
+  <p>&copy; 2025 CORE Advisors. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Basic form validation
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    if (!this.checkValidity()) {
+      e.preventDefault();
+      e.stopPropagation();
+      alert('Please complete all required fields.');
+    } else {
+      alert('Thank you for reaching out!');
+    }
+  });
+</script>
+</body>
+</html>
